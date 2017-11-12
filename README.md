@@ -13,7 +13,7 @@ pip install opencv-python
 ```
 
 ## Example
-To test whether my tools is good on your system, you can run my test by following instruction under this VisualizationTools folder:
+To test whether my tools is good on your system, you can run my test by following instruction under VisualizationTools/test folder:
 
 ```
 python ../tools/visualize_vectors_field.py test.png
