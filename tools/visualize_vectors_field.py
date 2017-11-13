@@ -18,7 +18,7 @@ def vectorize_image(angles, amplitude=None):
         assert angles.shape == amplitude.shape
         max_value = np.max(amplitude)
         min_value = np.min(amplitude)
-        v = amplitude * 255. / (max_value-min_value)
+        v = (amplitude - min_value) * 255. / (max_value-min_value) 
     else:
         v = 255*np.ones(shape)
 
