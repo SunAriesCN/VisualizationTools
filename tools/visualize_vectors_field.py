@@ -4,7 +4,7 @@ import numpy as np
 def vectorize_image(angles, amplitude=None):
     """
     Input:
-    angles - angle in degree
+    angles - angle in degree ranged in [0, 360]
     amplitude - the magnitude of the vector field
 
     Output:
